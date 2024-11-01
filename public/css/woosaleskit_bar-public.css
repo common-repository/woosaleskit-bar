@@ -1,0 +1,91 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+.woosaleskit-footer-bar {
+    display: none;
+}
+
+.woosaleskit-footer-bar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #000;
+    box-shadow: 0 0 6px rgba(0,0,0,.7);
+    z-index: 9999;
+}
+.woosaleskit-footer-bar .widget {margin: 0 !important}
+
+.woosaleskit-footer-bar .search-field  {width: 90%; margin: 0 auto}
+@media (max-width: 768px){
+  .woosaleskit-footer-bar ul li.search .site-search  input[type='submit'] {margin: 8px auto;}
+ .woosaleskit-footer-bar {
+    display: block;
+        background-color: #161616;
+}
+.woosaleskit-footer-bar ul {
+    margin: 0;
+}
+.woosaleskit-footer-bar ul li {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin: 0
+}
+.woosaleskit-footer-bar ul.columns-3 li {
+    width: 33.33333%;
+}
+
+.woosaleskit-footer-bar ul li>a {
+    height: 60px;
+    display: block;
+    position: relative;
+     z-index: 999;
+    border-right: 1px solid #000;
+        background-color: #161616;
+    color: #ae9364;
+       line-height: 2.618046972;
+    font-weight: 400;
+    font-size: 1.618em;
+
+}
+
+.woosaleskit-footer-bar ul li.search .site-search {
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    right: 0;
+    -webkit-transition: all,ease,.2s;
+    -moz-transition: all,ease,.2s;
+    transition: all,ease,.2s;
+        padding: 13px;
+    z-index: 1;
+    display: block;
+    background-color: #313131;
+    height: 100px;
+}
+
+.woosaleskit-footer-bar ul li.search.active .site-search {
+    bottom: 60px;
+}
+.woosaleskit-footer-bar ul li.cart .count {
+    text-indent: 0;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    /* line-height: 2; */
+    box-sizing: content-box;
+    font-size: .75em;
+    position: absolute;
+    top: .875em;
+    left: 54%;
+    border-radius: 100%;
+    border: 1px solid #000;
+    color: #000;
+    background: #fff;}
+
+}
